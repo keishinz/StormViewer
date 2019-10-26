@@ -24,7 +24,6 @@
 		803BC6A62363CE0400DAC60C /* nssl0051.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 803BC69C2363CE0400DAC60C /* nssl0051.jpg */; };
 		803BC6A72363CE0400DAC60C /* nssl0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 803BC69D2363CE0400DAC60C /* nssl0091.jpg */; };
 		803BC6B32363D94B00DAC60C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803BC6B12363D94B00DAC60C /* DetailViewController.swift */; };
-		803BC6B42363D94B00DAC60C /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803BC6B22363D94B00DAC60C /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +46,6 @@
 		803BC69C2363CE0400DAC60C /* nssl0051.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0051.jpg; sourceTree = "<group>"; };
 		803BC69D2363CE0400DAC60C /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
 		803BC6B12363D94B00DAC60C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		803BC6B22363D94B00DAC60C /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +83,6 @@
 				803BC6822363C67800DAC60C /* SceneDelegate.swift */,
 				803BC6842363C67800DAC60C /* ViewController.swift */,
 				803BC6B12363D94B00DAC60C /* DetailViewController.swift */,
-				803BC6B22363D94B00DAC60C /* DetailViewController.xib */,
 				803BC6862363C67800DAC60C /* Main.storyboard */,
 				803BC6892363C67A00DAC60C /* Assets.xcassets */,
 				803BC68B2363C67A00DAC60C /* LaunchScreen.storyboard */,
@@ -178,7 +175,6 @@
 				803BC6A42363CE0400DAC60C /* nssl0046.jpg in Resources */,
 				803BC6A52363CE0400DAC60C /* nssl0049.jpg in Resources */,
 				803BC68A2363C67A00DAC60C /* Assets.xcassets in Resources */,
-				803BC6B42363D94B00DAC60C /* DetailViewController.xib in Resources */,
 				803BC6A02363CE0400DAC60C /* nssl0034.jpg in Resources */,
 				803BC6A72363CE0400DAC60C /* nssl0091.jpg in Resources */,
 				803BC6A12363CE0400DAC60C /* nssl0033.jpg in Resources */,

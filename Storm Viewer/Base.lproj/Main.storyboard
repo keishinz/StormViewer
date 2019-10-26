@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="BbW-qN-hgR">
             <objects>
-                <tableViewController id="4MP-M4-S4t" customClass="ViewController" customModule="Storm_Viewer" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="PicturesList" id="4MP-M4-S4t" customClass="ViewController" customModule="Storm_Viewer" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="LmH-ee-REJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -53,14 +53,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dDR-MY-xm7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dDR-MY-xm7">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="dDR-MY-xm7" firstAttribute="centerX" secondItem="OS9-qR-hla" secondAttribute="centerX" id="0QX-2X-P0X"/>
+                            <constraint firstItem="dDR-MY-xm7" firstAttribute="leading" secondItem="MPI-vz-iuf" secondAttribute="leading" id="8hp-ba-N7d"/>
+                            <constraint firstItem="dDR-MY-xm7" firstAttribute="bottom" secondItem="MPI-vz-iuf" secondAttribute="bottom" id="PKm-yq-qiN"/>
+                            <constraint firstItem="dDR-MY-xm7" firstAttribute="top" secondItem="MPI-vz-iuf" secondAttribute="top" id="Pfk-qx-hqr"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="MPI-vz-iuf"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="dDR-MY-xm7" id="GqJ-w6-GQM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XKK-6n-d4C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
