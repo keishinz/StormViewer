@@ -12,13 +12,16 @@ class DetailViewController: UIViewController {
     
     @IBOutlet var imageView: UIImageView!
     var selectedImageName: String?
+    var countOfPictures: Int?
+    var numOfPicture: Int?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        title = selectedImageName
+//        title = selectedImageName
+        title = "Picture " + String(numOfPicture! + 1) + " of " + String(countOfPictures!)
         navigationItem.largeTitleDisplayMode = .never
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
